@@ -7,20 +7,47 @@ Diagram below shows full deployment of the RedTeam Resource Group with all the V
 
 ![RedTeam_Resource Group](Images/RedTeam_Resource%20Group.png)
 
+This document contains the following details:
+
+Unit Objectives
+Description of the Topology
+Access Policies
+ELK Configuration
+Beats in Use
+Machines Being Monitored
+How to Use the Ansible Build
+Description of the Topology
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 ### Unit Objectives
-- Deploy containers using Ansible and Docker.
+Deploy containers using Ansible and Docker.
 ![Deploying Ansible](Images/ELK_Docker.PNG)
-
-- Deploy Filebeat using Ansible.
+Deploy Filebeat using Ansible.
 ![FileBeat](Images/ELK_PlayBook.PNG)
-- Deploy the ELK stack on a server.
-![ELK Stack](Images/ELK_Docker.PNG
-- Diagram networks and creating a README.
+Deploy the ELK stack on a server.
+![ELK Stack](Images/ELK_Docker.PNG)
+
 
 - Craft documentation and interview responses to effectively communicate your achievements. 
 
-</details>
+
+
+Load balancing ensures that the application will be highly available, in addition to restricting in-bound access to the network.
+
+A load balancer intelligently distributes traffic from clients across multiple servers without the clients having to understand how many servers are in use or how they are configured. Because the load balancer sits between the clients and the servers it can enhance the user experience by providing additional security, performance, resilience and simplify scaling your website.
+What is the advantage of a jump box?
+
+A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the jumpbox and system network_. -What does Filebeat watch for? Changes to file changes on the machine. -What does Metricbeat record? collect metrics from the operating system and from services running on the server.
+
+The configuration details of each machine may be found below.
+
+Name	Function	IP Address	Operating System
+Jump Box	Gateway	Public IP	Linux
+Web-1	Webserver	10.0.0.6	Linux
+Web-2	Webserver	10.0.0.7	Linux
+Web-3	Webserver	10.0.0.8	Linux
+Web-4 (ELK-Server)	Monitoring	10.1.0.4	Linux
 
 
 ### Lab Environment
@@ -29,7 +56,7 @@ Personal Azure Environment was used to deply all VM's.
 ### New VM in Cenrtral Location:
 
 - VM for the ELK server had 8GB of memory for the ELK container to run properly. 
-- The VM was deploed in Central Region.
+- The New VM was deploed in Central Region.
 - Create another vNet in another region and attempt to create the ELK sever in that region.
 
 
