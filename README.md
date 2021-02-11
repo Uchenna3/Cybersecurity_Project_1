@@ -19,15 +19,6 @@ How to Use the Ansible Build
 Description of the Topology
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-### Unit Objectives
-Deploy containers using Ansible and Docker.
-![Deploying Ansible](Images/ELK_Docker.PNG)
-Deploy Filebeat using Ansible.
-![FileBeat](Images/ELK_PlayBook.PNG)
-Deploy the ELK stack on a server.
-![ELK Stack](Images/ELK_Docker.PNG)
-
-
 - Craft documentation and interview responses to effectively communicate your achievements. 
 
 
