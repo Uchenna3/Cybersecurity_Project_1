@@ -5,7 +5,7 @@
 Diagram below shows full deployment of the RedTeam Resource Group with all the Virtual Artifacts used.
 
 
-![RedTeam_Resource Group](Images/RedTeam_Resource Group.png)
+[RedTeam_Resource Group](Images/RedTeam_Resource Group.png)
 
 ### Unit Objectives
 
