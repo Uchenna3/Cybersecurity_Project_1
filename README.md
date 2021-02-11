@@ -7,6 +7,7 @@ Diagram below shows full deployment of the RedTeam Resource Group with all the V
 
 ![RedTeam_Resource Group](Images/RedTeam_Resource Group.png)
 
+Images/RedTeam_Resource Group.png
 ### Unit Objectives
 
 <details>
