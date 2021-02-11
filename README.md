@@ -103,19 +103,6 @@ For more information about these Security+ domains, refer to the following resou
 ---
 
 
-</details>
-
-
-
-### Unit 13 : Homework
-
-This unit's homework assignment can be viewed here:
-
-- [Unit 13 Homework File](../../2-Homework/13-Github-Fundamentals/Unsolved/README.md)
-
-### Looking Forward 
-
-The next unit will mark the start of the Offensive Security module. In the Web Development unit, we'll examine the infrastructure and deployment of web applications to inform how we can explore and exploit vulnerabilities within those applications.  
 
 
 
