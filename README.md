@@ -1,28 +1,21 @@
 ## ELK Stack Project
 
-### Unit Description
+### Red Team Resource Group Overview
 
 Diagram below shows full deployment of the RedTeam Resource Group with all the Virtual Artifacts used.
 
 
 ![RedTeam_Resource Group](Images/RedTeam_Resource%20Group.png)
 
-Images/RedTeam_Resource Group.png
+
 ### Unit Objectives
-
-<details>
-    <summary>Click here to view the daily unit objectives.</summary>
-
-  <br>
-
-Throughout this week, you will apply skills and knowledge gained over the past twelve weeks to complete the following: 
-
 - Deploy containers using Ansible and Docker.
+![Deploying Ansible](Images/ELK_Docker.PNG)
 
 - Deploy Filebeat using Ansible.
-
+![FileBeat](Images/ELK_PlayBook.PNG)
 - Deploy the ELK stack on a server.
-
+![ELK Stack](Images/ELK_Docker.PNG
 - Diagram networks and creating a README.
 
 - Craft documentation and interview responses to effectively communicate your achievements. 
@@ -31,22 +24,13 @@ Throughout this week, you will apply skills and knowledge gained over the past t
 
 
 ### Lab Environment
+Personal Azure Environment was used to deply all VM's.
 
-For the majority of demonstrations and activities, the class will use Microsoft Azure cloud services and the Azure cloud portal.
+### New VM in Cenrtral Location:
 
-- You will **not** be using any of the Azure lab environments. Instead, you will be using personal Azure accounts.
-
-### What to Be Aware Of:
-
-- The sample logs used in this unit are specific to the time in which they are viewed. As such, answers will vary from the answers provided in the solutions.
-
-- The VM for the ELK server **must** have at least 4GiB of memory for the ELK container to run properly. Azure has VM options that have `3.5 GiB` of memory, but **do not use them**. They will not properly run the ELK container because they do not have enough memory.
-
-- Azure may run out of available VMs for you to create a particular region. If this happens, you will need to do one of two things:
-
-  - Open a support ticket with Azure support using [these instructions](https://docs.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request). Azure support is generally very quick to resolve issues.
-
-  - Create another vNet in another region and attempt to create the ELK sever in that region.
+- VM for the ELK server had 8GB of memory for the ELK container to run properly. 
+- The VM was deploed in Central Region.
+- Create another vNet in another region and attempt to create the ELK sever in that region.
 
 
 ### Security+ Domains
@@ -66,11 +50,9 @@ This unit covers portions of the following domains on the Security+ exam:
 - Incident response procedures
 
 
-</details> 
 
-<br>
 
-For more information about these Security+ domains, refer to the following resource: [Security+ Exam Objectives](https://www.comptia.jp/pdf/Security%2B%20SY0-501%20Exam%20Objectives.pdf)
+
 
 
 ### Additional Reading and Resources
