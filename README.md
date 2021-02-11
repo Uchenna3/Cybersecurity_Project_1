@@ -1,9 +1,10 @@
-## Unit 13 README: ELK Stack Project
+## ELK Stack Project
 
 ### Unit Description
 
-In the first project week, you will configure an ELK stack server in order to set up a cloud monitoring system. This project will result in tangible deliverables that demonstrate your knowledge of cloud, network security, logging and monitoring. 
+Diagram below shows full deployment of the RedTeam Resource Group with all the Virtual Artifacts used.
 
+![RedTeam_Resource Group.png]
 
 ### Unit Objectives
 
