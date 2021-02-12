@@ -7,16 +7,16 @@ Today, you will configure an ELK server within your virtual network. Specificall
 ![Virtual Network](Images/ELK_VNet.PNG)
 
 2. **Create a Peer Network Connection** between your two vNets.
-[](Images/VNet_Peering.PNG)
+![](Images/VNet_Peering.PNG)
 
 3. **Create a new VM.** Deploy a new VM into the new vNet with it's own Security Group. This VM will host the ELK server.
 ![New VM](Images/Web-4.PNG)
 4. **Download and configure a container.** Download and configure the `elk-docker` container onto this new VM.
-
+![](Images/ELK_PlayBook.PNG)
 5. **Launch and expose the container.** Launch the `elk-docker` container to start the ELK server.
-
+![](Images/ELK_Docker.PNG)
 6. **Implement identity and access management.** Configure your new Security group so you can connect to ELK via HTTP, and view it through the browser.
-
+![](Images/Localhost20%connection.PNG)
 
 
 
