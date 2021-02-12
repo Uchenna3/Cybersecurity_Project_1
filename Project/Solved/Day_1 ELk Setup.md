@@ -7,7 +7,7 @@ Today, you will configure an ELK server within your virtual network. Specificall
 [Virtual Network](Images/ELK_VNet.png)
 
 2. **Create a Peer Network Connection** between your two vNets.
-(Images/VNet_Peering.PNG)
+[](Images/VNet_Peering.PNG)
 
 3. **Create a new VM.** Deploy a new VM into the new vNet with it's own Security Group. This VM will host the ELK server.
 ![New VM](Images/Web-4.PNG)
