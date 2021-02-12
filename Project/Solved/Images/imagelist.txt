@@ -1,0 +1,10 @@
+ELK_Docker.PNG
+ELK_PlayBook.PNG
+ELK_VNet.PNG
+imagelist.txt
+Kibana_Home.png
+Localhost connection.PNG
+RedTeam_Artifacts.PNG
+RedTeam_Resource Group.png
+VNet_Peering.PNG
+Web-4.PNG
