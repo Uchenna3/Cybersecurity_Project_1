@@ -51,10 +51,44 @@ Personal Azure Environment was used to deply all VM's.
 - The New VM was deploed in Central Region.
 - Create another vNet in another region and attempt to create the ELK sever in that region.
 
+### Access Policies
+The machines on the internal network are not exposed to the public Internet.
 
-### Security+ Domains
+Only the jump box provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-This unit covers portions of the following domains on the Security+ exam:
+5061 Kibana Port
+Machines within the network can only be accessed by jump box provisioner.
+
+Which machine did you allow to access your ELK VM?
+
+My IP Address: 99.122.6.55
+A summary of the access policies in place can be found in the table below.
+
+|   Name     | Public Access| IP Addresses|
+| ---------- |--------------|-------------|
+| Jumpbox    | Yes          | 
+| Web-1      | No           |   10.0.0.6  |
+| Web-2      | No           |   10.0.0.7  |
+| Web-3      | No           |   10.0.0.8  |
+| Web-4 ELK  | No           |   10.1.0.4  |
+
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because... What is the main advantage of automating configuration with Ansible?
+
+Free: Ansible is an open-source tool.
+Very simple to set up and use: No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
+Powerful: Ansible lets you model even highly complex IT workflows.
+Flexible: You can orchestrate the entire application environment no matter where it’s deployed. You can also customize it based on your needs.
+Agentless: You don’t need to install any other software or firewall ports on the client systems you want to automate. You also don’t have to set up a separate management structure.
+Efficient: Because you don’t need to install any extra software, there’s more room for application resources on your server.
+The playbook implements the following tasks:
+
+Install docker.io
+Install pip3
+Install Docker python module
+Increase virtual memory
+Download and launch a docker
+The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
+
 
 <details>
     <summary> Click here to view Security+ Domains that apply to this project. </summary> 
